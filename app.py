@@ -29,6 +29,7 @@ def fetch_users():
 
 users = fetch_users()
 
+
 def init_user_table():
     conn = sqlite3.connect('blog.db')
     print("Opened database successfully")
